@@ -53,7 +53,7 @@ public class SendMail {
 			msg.setSentDate(new Date());
 
 			// 발송자를 지정한다. 발송자의 메일, 발송자명
-			msg.setFrom(new InternetAddress("hulis1234@gmail.com", "감성캠핑"));
+			msg.setFrom(new InternetAddress("email_add", "감성캠핑"));
 			
             // 수신자의 메일을 생성한다.
 			InternetAddress to = new InternetAddress(id);
