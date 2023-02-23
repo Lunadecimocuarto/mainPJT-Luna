@@ -13,8 +13,8 @@ public class SendMessage {
 	
 	 public void sendMessage(String phone, String text) {
 		    
-		 	String api_key = "NCSEPG6DZGAOTFNJ";
-		    String api_secret = "CRJKZH5PM5QCNZ6N9RR7RAFOT81TDCMO";
+		    String api_key = "APIKEY";
+		    String api_secret = "APISECRET";
 		    Message coolsms = new Message(api_key, api_secret);
 
 		    // 4 params(to, from, type, text) are mandatory. must be filled
